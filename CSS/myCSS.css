@@ -397,4 +397,74 @@ html{
     line-height: 1;
     font-size: 1.6rem;
     margin-left: 260px;
+    color: lightgray;
+}
+
+/* container 7 ------------------------ */
+.container7{
+    width: 1100px;
+    height: 600px;
+    margin: 0 100px;
+    padding: 0 16px;
+    background-color: rgb(169, 197, 175);
+}
+
+.container7_box{
+    height: 580px;
+}
+
+.container7_img{
+    width: 1100px;    
+}
+
+/* container 8------------------------ */
+.container8{
+    width: 1100px;
+    height: 120px;
+    margin: 0 100px;
+    padding: 0 16px;
+    background-color: rgb(20, 59, 28);
+}
+
+.container8_box{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;    
+}
+
+.container8_img{
+    width: 200px;
+    height: 60px;
+}
+
+.container8_img:hover{
+    background-color: rgb(181, 198, 204);
+}
+
+/* contaienr 9 ---------------------------*/
+.container9{
+    width: 1100px;
+    height: 200px;
+    margin: 0 100px;
+    padding: 0 16px;
+    background-color: rgb(26, 77, 78);
+}
+
+.container9_box{
+    width: 470px;
+    height: 160px;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0 auto;
+    
+}
+
+.container9_heading{
+    font-size: 4rem;
+    line-height: 1;
+}
+
+.container9_des{
+    font-size: 1.6rem;
+    color: lightgray;
 }
