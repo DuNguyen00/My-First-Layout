@@ -280,9 +280,6 @@ html{
     margin: 0 80px;
     font-size: 3rem;
 }
-.container4_heading{
-    
-}
 
 .container4_des{
     color: gray;
@@ -370,4 +367,34 @@ html{
 .container5_box-btn:hover{
     background-color: #f53838;
     color: white
+}
+
+/* container 6 -----------------------------------*/
+.container6{
+    width: 1100px;
+    height: 200px;
+    margin: 0 100px;
+    padding: 0 16px;
+    background-color: rgb(26, 77, 78);
+}
+
+.container6_content{
+    width: 900px;
+    padding: 20px 0;
+    margin: 0 80px;    
+    text-align: center;
+    background-color: burlywood;
+}
+.container6_heading{
+    width: 400px;
+    font-size: 3rem;
+    margin-left: 260px;
+    line-height: 1;
+}
+
+.container6_des{
+    width: 400px;
+    line-height: 1;
+    font-size: 1.6rem;
+    margin-left: 260px;
 }
