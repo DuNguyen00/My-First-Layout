@@ -1,0 +1,268 @@
+html{
+    /* 1 rem = 12px */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+}
+
+/* Header ---------------------------------*/
+.header{
+    width: 100%;
+    top: 0;
+    position: fixed;
+    display: block;
+}
+
+.header_nav{
+    /* background-color: gray; */
+    height: 40px;
+    display: flex;
+    padding: 22px 20px;
+    margin: 0 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* logo ---------------------------------*/
+.header_nav-logo{
+    width: 150px;
+    height: 34px;
+}
+.header_logo-img{
+    
+}
+
+/* header nav list ---------------------------------*/
+.header_nav-listcontainer{
+   width: 550px;
+}
+
+.header_nav-list{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_nav-list-link{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    text-align: center  ;
+}
+
+.header_nav-list-link:hover{
+    color: #f53838;
+}
+
+.header_nav-list-item{
+
+}
+
+/* header side button ---------------------------------*/
+.header_nav-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_nav-btn{
+    min-width: 120px;
+    height: 34px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.header_nav-btn-loggin{
+    border: none;
+}
+
+.header_nav-btn-register{
+    color: #f53838;
+    border-width: .2px;
+    border-color: #f53838;
+}
+
+.header_nav-btn-register:hover{
+    background-color: #f53838;
+    color: white;
+}
+/* main ======================================*/
+.main{
+    background-color: gray;
+    padding-top: 20px;
+    height: 1000px;
+    min-width: 1000px;
+}
+
+/* container1 ---------------------------------*/
+.container1{
+    margin: 0 100px;
+    padding: 0 16px;
+    display: flex;
+    width: 1100px;
+    height: 350px;
+}
+
+.container1_left{
+    font-size: 2rem;
+    line-height: 1;
+    width: 550px;
+    height: 320px;
+    
+}
+
+.container1_left_btn{
+    min-width: 250px;
+    height: 60px;
+    color: white;
+    background-color: #f53838;
+    margin-top: 60px;
+    margin-right: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+
+.container1_left_btn:hover{
+    background-color: rgb(32, 25, 46);
+}
+
+.container1_right{
+    width: 550px;
+    height: 320px;
+}
+
+.container1_right-img{
+    margin-top: 26px;    
+    width: 550px;
+    height: 320px;
+}
+
+/* container 2 */
+.container2{
+    margin: 0 100px;
+    padding: 0 16px;
+    display: flex;
+    width: 1100px;
+    height: 140px;
+    background-color: aliceblue;
+}
+
+.container2-icon{
+    color: #f53838;
+    font-size: 4rem;
+    margin: 0 20px;
+}
+
+
+.container2_box{
+    display: flex;
+    width: 320px;
+    height: 56px;
+    padding: 50px 0;
+    text-align: right;
+    justify-content: space-evenly;
+}
+
+/* .container2_left{
+    display: flex;
+    width: 320px;
+    height: 56px;
+    padding: 20px 0;
+    text-align: right;
+    justify-content: space-evenly;
+}
+
+.container2_right{
+    display: flex;
+    width: 320px;
+    height: 56px;
+    padding: 20px 0;
+    text-align: right;
+}
+
+.container2_mid{
+    display: flex;
+    width: 320px;
+    height: 56px;
+    padding: 20px 0;
+    text-align: right;
+} */
+
+.container2-heading{
+    margin: 0;
+}
+
+.container2_text{
+    font-size: 3rem;    
+}
+
+.container2-des{
+    line-height: 1.5;
+    color: gray;
+}
+
+/* container 3 -----------------------------*/
+.contaier3_right-icon{
+    color: lightgreen;
+    font-size: 1.8rem;
+    margin-right: 16px;
+}
+
+.container3{
+    display: flex;
+    width: 1100px;
+    height: 420px;
+    margin: 0 100px;
+    padding: 0 16px;
+    background-color: cadetblue;
+}
+
+.contaienr3_left{
+    height: 420px;
+    width: 550px;
+}
+
+.container3_left-img{
+    margin-top: 26px;    
+    width: 550px;
+    height: 320px;
+}
+
+.contaier3_right{
+    margin-top: 26px;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.container3_heading{
+    margin: 0;
+}
+
+.container3_des{
+    color: lightgray;
+    font-size: 2.6rem;
+}
+
+.container3_list{
+    list-style-type: none;
+    padding-left: 0;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container3_list-item{
+    color: lightgray;    
+}
+
+/* container 4 ----------------------- */
