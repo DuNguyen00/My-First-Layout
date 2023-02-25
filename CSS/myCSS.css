@@ -10,7 +10,7 @@ html{
     width: 100%;
     top: 0;
     position: fixed;
-    display: block;
+    /* display: block; */
 }
 
 .header_nav{
@@ -93,10 +93,11 @@ html{
 }
 /* main ======================================*/
 .main{
-    background-color: gray;
+    background-color: rgb(241, 231, 231);
     padding-top: 20px;
-    height: 1000px;
+    min-height: fit-content;
     min-width: 1000px;
+    /* display: none; */
 }
 
 /* container1 ---------------------------------*/
@@ -148,12 +149,12 @@ html{
 
 /* container 2 */
 .container2{
-    margin: 0 100px;
-    padding: 0 16px;
+    margin: 50px 100px;
+    padding: 0px 16px;
     display: flex;
     width: 1100px;
     height: 140px;
-    background-color: aliceblue;
+    background-color: rgb(197, 220, 241);
 }
 
 .container2-icon{
@@ -223,7 +224,7 @@ html{
     height: 420px;
     margin: 0 100px;
     padding: 0 16px;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
 }
 
 .contaienr3_left{
@@ -248,7 +249,7 @@ html{
 }
 
 .container3_des{
-    color: lightgray;
+    color: rgb(80, 69, 69);  
     font-size: 2.6rem;
 }
 
@@ -262,7 +263,7 @@ html{
 }
 
 .container3_list-item{
-    color: lightgray;    
+    color: rgb(80, 69, 69);    
 }
 
 /* container 4 ----------------------- */
@@ -271,7 +272,7 @@ html{
     height: 200px;
     margin: 0 100px;
     padding: 0 16px;
-    background-color: rgb(26, 77, 78);
+    /* background-color: rgb(26, 77, 78); */
 }
 
 .container4_content{
@@ -293,7 +294,7 @@ html{
     margin: 0 100px;
     padding: 0 16px;
     display: flex;
-    background-color: rgb(104, 74, 214);
+    /* background-color: rgb(104, 74, 214); */
     justify-content: space-between;
 }
 
@@ -301,11 +302,15 @@ html{
     width: 250px;
     height: 550px;
     padding: 40px 40px;
-    border: 2px;
+    border: 1px solid gray;
+    border-radius: 20px;
     text-align: center;
     background-color: white;
 }
 
+.container5_box .container5_box-premium{
+    border: 2px solid #f53838;
+}
 
 .container5_heading{
     font-size: 2.5rem;
@@ -375,7 +380,7 @@ html{
     height: 200px;
     margin: 0 100px;
     padding: 0 16px;
-    background-color: rgb(26, 77, 78);
+    /* background-color: rgb(26, 77, 78); */
 }
 
 .container6_content{
@@ -423,7 +428,7 @@ html{
     height: 120px;
     margin: 0 100px;
     padding: 0 16px;
-    background-color: rgb(20, 59, 28);
+    /* background-color: rgb(20, 59, 28); */
 }
 
 .container8_box{
@@ -447,7 +452,7 @@ html{
     height: 200px;
     margin: 0 100px;
     padding: 0 16px;
-    background-color: rgb(26, 77, 78);
+    /* background-color: rgb(26, 77, 78); */
 }
 
 .container9_box{
@@ -467,4 +472,245 @@ html{
 .container9_des{
     font-size: 1.6rem;
     color: lightgray;
+}
+
+/* container 10 --------------------------- */
+.container10{
+    width: 1100px;
+    height: 580px;
+    margin: 0 100px;
+    padding: 0 16px;
+    /* background-color: rgb(2, 60, 61); */
+    
+}
+
+.container10_boxes{ 
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+.container10_box{
+    width: 320px;
+    height: 170px;
+    padding: 40px 0;
+    background-color: white;
+    border: 2px solid rgb(104, 93, 93) ;
+    border-radius: 10px;
+}
+
+.container10_box-red{
+    border: 2px solid #f53838;
+    border-radius: 10px;
+}
+
+.container10_box-top{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container10_box-top-img{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+
+}
+
+.contaienr10_box-info{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.container10_box-top-name{
+    font-size: 1.6rem;
+    line-height: 2;
+    margin-block: 0;
+    height: fit-content;
+}
+
+.container10_box-top-location{
+    line-height: 1;
+    margin-block: 0;
+    height: fit-content;
+    color: rgb(167, 154, 154);
+}
+
+
+.container10_box-rating{    
+    font-size: 1.6rem;
+}
+
+.container10_box-icon{
+    margin: 0 10px;
+    color: gold;
+}
+
+.container10_box-bottom-des{
+    font-size: 1.6rem;
+    margin-left: 20px;
+}
+
+.container10_controller{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container10_controller-left{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.container10_controller-left-icon{
+    font-size: 1.6rem;
+    color: lightgray;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.container10_controller-right{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.container10_controller-right-icon{
+    font-size: 4rem;
+    margin-right: 10px;
+    color: #f53838;
+    cursor: pointer;
+}
+
+/* nút điều hướng qua trái */
+.fa-circle-left{
+    color: gray;
+    cursor: pointer;
+}
+
+/* sub zone */
+.container10_subscribe{
+    display: flex;
+    margin: 60px 100px 0 100px;
+    justify-content: space-between;
+}
+
+.container10_subscribe-left{
+    width: 500px;
+}
+
+.container10_subscribe-heading{
+    font-size: 3rem;
+    line-height: 1;
+    margin: 10px 0;
+}
+
+.container10_subscribe-des{
+    font-size: 1.8rem;
+    color: lightgrey;
+    
+}
+
+.container10_subscribe-btn{
+    font-size: 3rem;
+    width: 250px;
+    height: 80px;
+    margin-top: 20px;
+    background-color: #c22626;
+    color: white;
+    border: 1px;
+    border-radius: 30px;
+    box-shadow: 0 20px 60px rgb(0 0 0 / 9%);
+    cursor: pointer;
+}
+
+.container10_subscribe-btn:hover{
+    background-color: rgb(15, 12, 24);
+}
+
+/* footer ================================== */
+.footer_lasles{
+    width: 100%;
+    height: 300px;
+    background-color: gray;
+    padding-top: 20px;
+    display: block;
+}
+
+.footer_container{
+    padding-top: 20px;
+    display: flex;
+}
+
+.footer_leftside{
+   margin: 0 250px 0 120px;
+   width: 350px;
+}
+
+.footer_leftside-heading{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: black;
+    line-height: 1.5;
+}
+
+.footer_leftside-heading:hover{
+    cursor: text;
+}
+
+.footer_leftside-des{
+    font: 1.4rem;
+    color: lightgrey;
+}
+
+.footer_leftside-logo{
+
+}
+
+.footer-leftside-icon{
+    width: 25px;
+    height: 25px;
+    margin-right: 20px ;
+    border: .5px solid white;
+    border-radius: 30px;
+}
+
+.footer_rightside{
+    display: flex;
+    width: 750px;
+}
+
+.footer_rightside-box{
+    width: 200px;
+    height: max-content;
+}
+
+.footer_rightside-box p{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.footer_rightside-box p:hover{
+    cursor: text;
+}
+
+.footer_list{
+    list-style-type: none;
+    padding-left: 0;
+    
+}
+
+.footer_list-item{
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.footer_list-link{
+    color: black;
+    text-decoration: none;
+}
+
+.footer_list-link:hover{
+    text-decoration: underline;
 }
