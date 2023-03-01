@@ -110,7 +110,7 @@ html{
 /* container1 ---------------------------------*/
 .container1{
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 20px 0 20px;
     display: flex;
     width: 1140px;
     height: 350px;
@@ -180,7 +180,7 @@ html{
 
 .container2_box{
     display: flex;
-    margin-top: 40px;
+    margin-top: 74px;
     width: 365px;
     height: 56px;    
     text-align: right;
@@ -196,7 +196,7 @@ html{
 }
 
 .container2_text{
-   margin-right: 20px;
+   margin-right: 36px;
 }
 
 .container2-heading{
@@ -219,41 +219,40 @@ html{
 }
 
 .container3{
-    display: flex;
     padding: 50px 20px;
     max-width: 1100px;
     width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    /* background-color: cadetblue; */
 }
 
 
 .container3_left-img{ 
     width: 100%;
-    height: 420px;
-    width: 510px;
+    margin-top: 48px;
+    margin-left: -7px;
 }
 
 .contaier3_right{
-    max-width: 428px;
-    margin-top: 26px;    
+    width: 430px;
+    margin-top: 22px;    
     line-height: 1;
 }
 
 .container3_heading{
-    margin-block-end: .8;
-    margin-block-start: .8;
     font-size: 3.5rem;
-    font-weight: 900;
     color: #0b132a;;
+    line-height: 1.15;;
+    margin: 58px 0 20px 24px;;
 }
 
 .container3_des{
     color: #4f5665;
     font-size: 1.4rem;
     line-height: 30px;
+    margin-left: 24px;
+    width: 430px;
 }
 
 .container3_list{
@@ -262,16 +261,17 @@ html{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 26px;
 }
 
 .contaier3_right-icon{
-    color: rgb(94, 168, 94);
+    color: #2fab73;
 }
 
 .container3_list-item{
     color: #4f5665; 
     font-size: 1.4rem;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
 
 /* container 4 ----------------------- */
@@ -293,7 +293,8 @@ html{
     color: #0b132a;
     margin-bottom: 20px;
     font-size: 3.5rem;
-    font-weight: 900;
+    margin-block-start: 40px;
+    margin-block-end: 30px;
 }
 
 .container4_des{
@@ -307,14 +308,15 @@ html{
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
-    padding: 10px 20px;
+    padding: 10px 0;
     display: flex;
     /* background-color: rgb(104, 74, 214); */
     justify-content: space-between;
 }
 
 .container5_box{
-    max-width: 310px;
+    max-width: 330px;
+    margin-top: 14px;
     width: 100%;
     padding: 8rem 4rem;
     border: 2px solid #dddddd;
@@ -324,7 +326,7 @@ html{
 
 .container5_box-premium{
     border: 2px solid #f53838;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .container5_heading{
@@ -340,17 +342,18 @@ html{
     text-align: left;  
     width: 250px;
     height: 200px;
-    margin-left: 10px;
+    margin-left: 26px;
 }
 
 .container5_list-item{
     margin-bottom: 20px;
     font-size: 1.4rem;
     color: #4f5665;
+    margin-left: 10px;
 }
 
 .container5_list-icon{
-    color: green;
+    color: #2fab73;
     width: 10px;
     margin-right: 20px;
     
@@ -378,8 +381,8 @@ html{
 }
 
 .container5_box-btn{
-    min-width: 170px;
-    height: 40px;
+    min-width: 180px;
+    height: 50px;
     color: #f53838;
     background-color: white;
     font-size: 1.4rem;
@@ -406,7 +409,7 @@ html{
 
 .container6_content{
     max-width: 550px;
-    margin: 0 auto 60px;    
+    margin: 38px auto 60px;    
     text-align: center;
 }
 .container6_heading{
@@ -423,7 +426,7 @@ html{
     line-height: 30px;
     font-size: 1.6rem;
     color: #4f5665;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 /* container 7 ------------------------ */
@@ -444,7 +447,7 @@ html{
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
-    padding: 20px 20px;
+    padding: 80px 20px;
    
 }
 
@@ -499,10 +502,7 @@ html{
     max-width: 1100px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 20px; 
-    padding-bottom: 50px;
-    box-shadow: 0 20px 60px rgb(0 0 0 / 9%);
-    border-radius: 10px;   
+    padding: 0 20px 20px;       
 }
 
 .container10_boxes{ 
@@ -585,6 +585,7 @@ html{
 
 .container10_controller-left{
     margin-left: 20px;
+    margin-top: 20px;
 }
 
 .container10_controller-left-icon{
@@ -596,33 +597,53 @@ html{
 
 .container10_controller-right{
     margin-right: 20px;
-}
-
-.container10_controller-right-icon{
-    font-size: 6rem;
-    margin-right: 10px;
-    color: #f53838;
-    cursor: pointer;
-}
-
-/* nút điều hướng qua trái */
-.fa-circle-left{
-    color: gray;
-    cursor: pointer;
-}
-
-/* sub zone */
-.container10_subscribe{
     display: flex;
-    margin: 60px 80px 0 50px;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.container10_subscribe-left{
+.container10_controller-arrow{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid #f53838;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 20px;
+    object-fit: scale-down;
+}
+
+.container10_controller-rightarrow{
+    background-color: #f53838;
+}
+
+
+/* container 11 ---------------------------- */
+.container11{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px; 
+    
+}
+/* sub zone */
+.container11_subscribe{
+    display: flex;
+    background-color: #fff;
+    top: 170px;
+    padding: 0 7rem 6rem;
+    flex-direction: unset;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 20px 60px rgb(0 0 0 / 9%);
+    border-radius: 10px; 
+    position: relative;
+}
+
+.container11_subscribe-left{
     width: 370px;
 }
 
-.container10_subscribe-heading{
+.container11_subscribe-heading{
     font-size: 3.5rem;
     color: #0b132a;
     font-weight: 500;
@@ -630,13 +651,13 @@ html{
     margin: 10px 0;
 }
 
-.container10_subscribe-des{
+.container11_subscribe-des{
     font-size: 1.6rem;
     color: #4f5665;
-    
+    margin-block-start: 30px;
 }
 
-.container10_subscribe-btn{
+.container11_subscribe-btn{
     font-size: 1.6rem;
     width: 260px;
     height: 60px;
@@ -649,24 +670,27 @@ html{
     cursor: pointer;
 }
 
-.container10_subscribe-btn:hover{
+.container11_subscribe-btn:hover{
     background-color: rgb(17, 14, 27);
     border: 1px solid rgb(17, 14, 27);
 }
 
 /* footer ================================== */
 .footer_lasles{
-    max-width: 1100px;
-    width: 100%;
+    
     height: max-content;
-    margin: 0 auto;
+    padding-top: 180px;
     background-color: #f8f8f8;
-    padding-top: 80px;
-    padding-bottom: 50px;
+   
     display: block;
 }
 
 .footer_container{    
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 20px;
+    
     display: flex;
 }
 
@@ -676,7 +700,7 @@ html{
 }
 
 .footer_leftside-heading{
-    width: 340px;
+    width: 345px;
     font-size: 1.6rem;
     color: #4f5665;
     line-height: 30px;
@@ -687,14 +711,24 @@ html{
 }
 
 .footer_leftside-des{
-    font: 1.4rem;
-    color: lightgrey;
+    font-size: 1.6rem;
+    color: #4f5665;
 }
 
+.footer_leftside-social{
+    display: flex;
+    padding: 20px 0;
+}
 .footer-leftside-icon{
-    width: 25px;
-    height: 25px;
+    width: 34px;
+    height: 34px;
     margin-right: 20px ;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 19%);
+    display: flex;
+    justify-content: center;
+    object-fit: scale-down;
 }
 
 .footer_rightside{
@@ -725,7 +759,7 @@ html{
 
 .footer_list-item{
     margin-bottom: 25px;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 .footer_list-link{
