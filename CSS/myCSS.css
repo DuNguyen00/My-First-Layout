@@ -145,7 +145,7 @@ html{
     background-color: #f53838;
     margin-top: 25px;
     margin-right: 20px;
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-weight: 700;
     cursor: pointer;
     border-radius: 10px;
@@ -489,6 +489,7 @@ html{
     font-weight: 900;
     margin-bottom: 20px;
     color: #0b132a;
+    margin-block-start: 72px;
 }
 
 .container9_des{
@@ -647,21 +648,20 @@ html{
     font-size: 3.5rem;
     color: #0b132a;
     font-weight: 500;
-    line-height: 1;
-    margin: 10px 0;
+    line-height: 1.12;
+    margin: 20px 0;
 }
 
 .container11_subscribe-des{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: #4f5665;
-    margin-block-start: 30px;
+    margin-block-start: 20px;
 }
 
 .container11_subscribe-btn{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     width: 260px;
     height: 60px;
-    margin-top: 20px;
     background-color: #f53838;
     color: white;
     border-radius: 10px;
@@ -679,7 +679,7 @@ html{
 .footer_lasles{
     
     height: max-content;
-    padding-top: 180px;
+    padding-top: 190px;
     background-color: #f8f8f8;
    
     display: block;
@@ -689,14 +689,13 @@ html{
     max-width: 1140px;
     width: 100%;
     margin: 0 auto;
-    padding: 40px 20px;
-    
+    padding: 40px 20px;    
     display: flex;
 }
 
 .footer_leftside{
    margin-right: 220px;
-   width: 350px;
+   width: 300x;
 }
 
 .footer_leftside-heading{
@@ -733,11 +732,10 @@ html{
 
 .footer_rightside{
     display: flex;
-    width: 750px;
 }
 
 .footer_rightside-box{
-    width: 200px;
+    width: 180px;
     height: max-content;
 }
 
@@ -745,6 +743,7 @@ html{
     font-size: 1.8rem;
     font-weight: 500;
     color: #0b132a;
+    margin-bottom: 20px;
 }
 
 .footer_rightside-box p:hover{
@@ -758,7 +757,7 @@ html{
 }
 
 .footer_list-item{
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     font-size: 1.4rem;
 }
 
