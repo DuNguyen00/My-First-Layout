@@ -41,7 +41,9 @@
     }
 }
  
-/* container 1 ====================================== */
+/*  container 1 ======================================
+*   Want anything to be easy with LaslesVPN. 
+*/
 @media screen and (min-width: 992px){
     .container1{
        flex-wrap: nowrap;
@@ -72,7 +74,9 @@
     }
 }
 
-/* container 2 ================================= */
+/*  container 2 ================================= 
+*   Location - Server - User
+*/
 @media screen and (min-width: 992px){
     .container2{
       flex-direction: unset;
@@ -83,7 +87,14 @@
 @media screen and (min-width: 992px){
     .container2_box{
         justify-content: center;
-        margin-bottom: unset;        
+        margin-bottom: unset;  
+        margin-top: 74px;      
+    }
+}
+
+@media screen and (min-width: 992px){
+    .container2_text{
+        margin-right: 36px;
     }
 }
 
@@ -100,7 +111,9 @@
     }
 }
 
-/* container 3 ============================== */
+/*  container 3 ============================== 
+*   We Provide Many Features You Can Use
+*/
 @media screen and (min-width: 992px){
     .container3{
         flex-direction: unset;
@@ -127,7 +140,9 @@
     }
 }
 
-/* container 4 ============================= */
+/*  container 4 ============================= 
+*   Choose Your Plan
+*/
 @media screen and (min-width: 992px){
     .container4_content{
         max-width: 550px;
@@ -146,10 +161,179 @@
     }
 }
 
-/* container 5=========================================== */
+/*  container 5=========================================== 
+*   Plan Boxes
+*/
 @media screen and (min-width: 992px){
     .container5{
         flex-direction: unset;
         align-items: unset;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .container5_box{
+        padding: 8rem 4rem;
+        margin-bottom: unset;
+    }
+}
+
+/*  container 6=========================================== 
+*   Huge Global Network of Fast VPN
+*/
+@media screen and (min-width: 992px){
+    .container6_content{
+        max-width: 550px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .container6_heading{
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .container6_des{
+        font-size: 1.6rem;
+        margin: 0;
+    }
+}
+
+/*  container 8=========================================== 
+*   Neflix - Discord - Amazon - Reddit
+*/
+@media screen and (min-width: 993px){
+    .container8{
+        flex-wrap: unset;       
+    }
+}
+
+@media screen and (min-width: 993px){
+    .container8_box{
+        height: 60px;
+        width: 190px;
+        margin-bottom: unset;
+    }
+}
+
+/*  container 9=========================================== 
+*   Trusted by Thousands of Happy Customer
+*/
+@media screen and (min-width: 992px){
+    .container9_box{
+        max-width: 550px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .container9_heading{
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .container9_des{
+        font-size: 1.6rem;
+        margin: 0;
+    }
+}
+
+/*  container 10=========================================== 
+*   Review
+*/
+@media screen and (min-width: 992px){
+    .container10_boxes{
+        flex-wrap: unset;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .container10_box{
+        max-width: 320px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .container10_box-top{
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .container10_controller{
+        display: block;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/*  container 11=========================================== 
+*   Subscribe Now for Get Special Features!
+*/
+@media screen and (min-width: 992px){
+    .container11_{
+        
+        
+    }
+}
+
+@media screen and (min-width: 992px){
+    .container11_subscribe{
+        flex-direction: unset;
+        padding: 0 6rem 7rem;
+        top: 170px;
+        position: relative;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .container11_subscribe-left{
+       text-align: left;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .container11_subscribe-heading{
+       font-size: 3.5rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .container11_subscribe-button{
+        width: unset;
+        margin-top: unset;
+    }
+}
+
+
+@media screen and (min-width: 992px){
+    .container11_subscribe-btn{
+        padding: 2.1rem 7.75rem;
+        width: unset;
+    }
+}
+
+/*  footer ============================================= */
+@media screen and (min-width: 992px){
+    .footer_container{
+        flex-direction: unset;
+        align-items: unset;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .footer_leftside{
+        max-width: 340px;
+        margin-right: 220px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .footer_rightside{
+        display: flex;
+        flex-direction: row;
     }
 }

@@ -223,7 +223,8 @@ html{
 }
 
 .container1_left-heading{
-    margin-block-start: 20px;
+    margin-block-start: 30px;
+    margin-bottom: 20px;
     font-size: 2.6rem;
     font-weight: 500;
     color: #0b132a;;
@@ -233,7 +234,8 @@ html{
     font-size: 1.4rem;
     color: #4f5665;;
     line-height: 2.5rem;
-    margin-block-end: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .container1_left_btn{
@@ -267,7 +269,7 @@ html{
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    padding: 50px 20px;
+    padding: 120px 20px;
     width: 100%;
     max-width: 1140px;
     box-shadow: 0 20px 60px rgb(0 0 0 / 9%);
@@ -277,15 +279,15 @@ html{
 
 .container2_box{
     display: flex;
-    margin-top: 74px;
     flex: 1;
+    margin-top: 20px;
     align-items: center;
     justify-content: space-between;
     text-align: right;
 }
 
 .container2_text{
-   margin-right: 36px;
+   
 }
 
 .container2-heading{
@@ -399,10 +401,8 @@ html{
     width: 100%;
     padding: 4rem;
     margin-bottom: 20px;
-    /* padding: 8rem 4rem; */
     border: 2px solid #dddddd;
     border-radius: 10px;
-    /* text-align: center; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -485,32 +485,29 @@ html{
 
 /* container 6 -----------------------------------*/
 .container6{
-    max-width: 1100px;
+    max-width: 1140px;
     width: 100%;
     margin: 0 auto;
     padding: 60px 20px 10px 20px;
 }
 
 .container6_content{
-    max-width: 550px;
+    max-width: 270px;
     margin: 38px auto 60px;    
     text-align: center;
 }
 .container6_heading{
-    margin: 0 auto;
-    width: 400px;
-    font-size: 3.5rem;
+    margin: 0 auto 20px;
+    max-width: 400px;
+    font-size: 2.6rem;
     line-height: 1.15;
     color: #0b132a;
 }
 
 .container6_des{
-    margin: 0 auto;
-    width: 510px;
-    line-height: 30px;
+    line-height: 3rem;
     font-size: 1.6rem;
     color: #4f5665;
-    margin-top: 20px;
 }
 
 /* container 7 ------------------------ */
@@ -529,23 +526,26 @@ html{
 /* container 8------------------------ */
 .container8{
     width: 100%;
-    max-width: 1100px;
+    max-width: 1140px;
     margin: 0 auto;
-    padding: 80px 20px;
-   
+    padding: 80px 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;  
 }
 
 .container8_box{
-    height: 70px;
-    display: flex;
-    justify-content: space-between;    
+    height: 30px;
+    width: 95px;
+    margin-bottom: 20px;
 }
 
 .container8_img{
     width: 100%;
     height: 100%;
     object-fit: cover;   
-    
+    object-position: left;
 }
 
 .container8_img:hover{
@@ -554,50 +554,51 @@ html{
 
 /* contaienr 9 ---------------------------*/
 .container9{
-    max-width: 1100px;
+    max-width: 1140px;
     width: 100%;
     margin: 0 auto;
     padding: 20px 20px;
 }
 
 .container9_box{
-    max-width: 570px;
+    max-width: 270px;
     margin: 0 auto 60px;
     text-align: center;
     
 }
 
 .container9_heading{
-    font-size: 3.5rem;
+    font-size: 2.6rem;
     line-height: 1.15;
-    font-weight: 900;
+    /* font-weight: 900; */
     margin-bottom: 20px;
     color: #0b132a;
-    margin-block-start: 72px;
+    /* margin-block-start: 72px; */
 }
 
 .container9_des{
     font-size: 1.6rem;
     color: #4f5665;
-    line-height: 30px;
+    line-height: 3rem;
 }
 
 /* container 10 --------------------------- */
 .container10{
-    max-width: 1100px;
+    max-width: 1140px;
     width: 100%;
     margin: 0 auto;
     padding: 0 20px 20px;       
 }
 
 .container10_boxes{ 
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+    /* display: flex; */
+    /* width: 100%; */
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
 }
 
 .container10_box{
-    max-width: 320px;
+    width: 100%;
     height: 270px;
     padding: 20px 0;
     border-radius: 10px;
@@ -605,6 +606,8 @@ html{
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    margin-bottom: 40px;
 }
 
 .container10_box-red{
@@ -614,7 +617,7 @@ html{
 
 .container10_box-top{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 
 }
 
@@ -630,6 +633,7 @@ html{
     flex-direction: column;
     text-align: left;
     margin-right: 30px;
+    margin-left: 20px;
 }
 
 .container10_box-top-name{
@@ -662,10 +666,10 @@ html{
     margin: 10px 20px 0 20px;
 }
 
+/* khu vực điều hướng */
 .container10_controller{
-    display: flex;
-    justify-content: space-between;
     margin-top: 30px;
+    display: none;
 }
 
 .container10_controller-left{
@@ -708,47 +712,53 @@ html{
     width: 100%;
     margin: 0 auto;
     padding: 0 20px; 
-    
 }
 /* sub zone */
 .container11_subscribe{
     display: flex;
     background-color: #fff;
-    top: 170px;
-    padding: 0 7rem 6rem;
-    flex-direction: unset;
+    top: 110px;
+    padding-bottom: 6rem;
     align-items: center;
     justify-content: space-between;
     box-shadow: 0 20px 60px rgb(0 0 0 / 9%);
     border-radius: 10px; 
-    position: relative;
+    flex-direction: column;
 }
 
 .container11_subscribe-left{
-    width: 370px;
+    max-width: 370px;
+    text-align: center;
 }
 
 .container11_subscribe-heading{
-    font-size: 3.5rem;
+    font-size: 2.6rem;
     color: #0b132a;
     font-weight: 500;
-    line-height: 1.12;
-    margin: 20px 0;
+    line-height: 1.15;
+    margin-bottom: 20px;
 }
 
 .container11_subscribe-des{
     font-size: 1.4rem;
     color: #4f5665;
-    margin-block-start: 20px;
+    margin: 0;
+}
+
+.container11_subscribe-button{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
 }
 
 .container11_subscribe-btn{
     font-size: 1.4rem;
-    width: 260px;
-    height: 60px;
+    width: 100%;
+    display: inline-block;
     background-color: #f53838;
     color: white;
     border-radius: 10px;
+    padding: 2.1rem 3.75rem;
     border: 1px solid #f53838;
     box-shadow: 0 20px 40px rgb(245 56 56 / 35%);
     cursor: pointer;
@@ -757,15 +767,15 @@ html{
 .container11_subscribe-btn:hover{
     background-color: rgb(17, 14, 27);
     border: 1px solid rgb(17, 14, 27);
+    box-shadow: 0 20px 40px rgb(17, 14, 27);
 }
 
-/* footer ================================== */
+/* footer ================================================= */
 .footer_lasles{
     
     height: max-content;
     padding-top: 190px;
-    background-color: #f8f8f8;
-   
+    background-color: #f8f8f8;   
     display: block;
 }
 
@@ -775,11 +785,12 @@ html{
     margin: 0 auto;
     padding: 40px 20px;    
     display: flex;
+    flex-direction: column;
 }
 
 .footer_leftside{
-   margin-right: 220px;
-   width: 300x;
+   /* margin-right: 220px;
+   width: 300x; */
 }
 
 .footer_leftside-heading{
@@ -816,6 +827,7 @@ html{
 
 .footer_rightside{
     display: flex;
+    flex-direction: column ;
 }
 
 .footer_rightside-box{
