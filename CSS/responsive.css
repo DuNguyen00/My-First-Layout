@@ -273,7 +273,7 @@
 @media screen and (min-width: 992px){
     .container10_controllers{        
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-end;
         align-items: center;
     }
 }

@@ -608,6 +608,7 @@ body{
     font-size: 1.4rem;
 }
 
+
 .container10_box-red{
     border-color: #f53838;
 }
@@ -655,13 +656,22 @@ body{
 .container10_controllers{
     margin-top: 60px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 .container10_controllers-left{
     margin-left: 20px;
     display: flex;
     align-items: center;
+}
+
+.swiper-pagination-bullet{
+    width: 15px;
+    height: 15px;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: #f53838;
 }
 
 .dot{

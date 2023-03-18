@@ -5,8 +5,9 @@
         <title>Lasles</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="CSS/owl.carousel.min.css">
-        <link rel="stylesheet" href="CSS/owl.theme.default.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+        <!-- <link rel="stylesheet" href="CSS/owl.carousel.min.css">
+        <link rel="stylesheet" href="CSS/owl.theme.default.min.css"> -->
         <link rel="stylesheet" href="CSS/myCSS.css">
         <link rel="stylesheet" href="CSS/responsive.css">        
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,8 +15,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="Assets/fontawesome-free-6.3.0-web/css/all.min.css">
         <script src="Assets/JS/jquery-3.6.4.min.js"></script>
-        <script src="Assets/JS/owl.carousel.min.js"></script>        
-        <script src="Assets\JS\myJS.js"></script>                 
+                      
     </head>
     <body>
         <div class="lasles lasles-overflow">
@@ -328,8 +328,8 @@
                 </div>
                 <!-- container 10 -->
                 <!-- Review  <i class="fa-solid fa-star container10_box-icon"></i>  style="width: 445px; margin-right: 50px;"-->
-                <div class="container10">
-                    <div class="loop owl-carousel owl-theme owl-loaded owl-drag">
+                <div class="container10 swiper mySwiper">
+                    <!-- <div class="loop owl-carousel owl-theme owl-loaded owl-drag">
                         <div class="owl-stage-outer">
                             <div class="container10_boxes owl-stage">
                                 <div class="owl-item" >
@@ -356,7 +356,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!--  -->
+                                
                                 <div class="owl-item" >
                                     <div class="container10_box">
                                         <div class="container10_box-upper">
@@ -380,7 +380,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!--  -->
+                                
                                 <div class="owl-item" >
                                     <div class="container10_box">
                                         <div class="container10_box-upper">
@@ -406,10 +406,81 @@
                                 </div>
                             </div>  
                         </div>
-                    </div>
+                    </div> -->
                     <!-- phím điều hướng -->
+                    <div class="container10_boxes swiper-wrapper">                        
+                        <div class="container10_box container10_box-red swiper-slide">
+                            <div class="container10_box-upper">
+                                <div class="avatar">
+                                    <img src="Assets/Pictures/customer-1.png" alt="">
+                                </div>
+                                <div class="info">
+                                    <h4>Viezh Robert</h4>
+                                    <p>Warsaw, Poland</p>
+                                </div>
+                                <div class="rate">
+                                    <span>4.5</span>
+                                    <i class="fa-solid fa-star rate-icon"></i>
+                                </div>
+                            </div>
+                            <div class="container10_box-bottom">
+                                <p>
+                                    “Wow... I am very happy to use this VPN, it turned out to be more
+                                    than my expectations and so far there have been no problems.
+                                    LaslesVPN always the best”.
+                                </p>
+                            </div>
+                        </div>
+                       
+                        <!--  -->                        
+                        <div class="container10_box swiper-slide">
+                            <div class="container10_box-upper">
+                                <div class="avatar">
+                                    <img src="Assets/Pictures/customer-2.png" alt="">
+                                </div>
+                                <div class="info">
+                                    <h4>Yessica Christy</h4>
+                                    <p>Shanxi, China</p>
+                                </div>
+                                <div class="rate">
+                                    <span>4.5</span>
+                                    <i class="fa-solid fa-star rate-icon"></i>
+                                </div>
+                            </div>
+                            <div class="container10_box-bottom">
+                                <p>                                               
+                                    “I like it because I like to travel far and still can connect with
+                                    high speed.”.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <!--  -->                        
+                        <div class="container10_box swiper-slide">
+                            <div class="container10_box-upper">
+                                <div class="avatar">
+                                    <img src="Assets/Pictures/customer-3.png" alt="">
+                                </div>
+                                <div class="info">
+                                    <h4>Kim Young Jou</h4>
+                                    <p>Seoul, South Korea</p>
+                                </div>
+                                <div class="rate">
+                                    <span>4.5</span>
+                                    <i class="fa-solid fa-star rate-icon"></i>
+                                </div>
+                            </div>
+                            <div class="container10_box-bottom">
+                                <p>
+                                    “This is very unusual for my business that currently requires a
+                                    virtual private network that has high security.”.
+                                </p>
+                            </div>
+                        </div>
+                        
+                    </div>
                     <div class="container10_controllers">
-                        <div class="container10_controllers-left dots">
+                        <div class="container10_controllers-left dots swiper-pagination">
                             <div class="dot"></div>
                             <div class="dot"></div>
                             <div class="dot"></div>
@@ -492,6 +563,9 @@
                     </div>
                 </div>
             </footer>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+            <!-- <script src="Assets/JS/owl.carousel.min.js"></script>         -->
+            <script src="Assets\JS\myJS.js"></script>   
         </div>             
     </body>
 </html>
