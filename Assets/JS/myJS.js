@@ -6,7 +6,7 @@ owl.owlCarousel(
         center: false,
         items:3,
         loop:true,
-        margin: 10,
+        margin: 50,
         // navContainer: ".arrows",
         dotsContainer: ".dots",
         dotsEach: true,
