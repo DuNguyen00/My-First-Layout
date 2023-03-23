@@ -593,11 +593,8 @@ body{
     max-width: 1140px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 20px;   
-}
-
-.container10_boxes{
-    
+    padding: 0 20px;
+       
 }
 
 .container10_box{
@@ -606,8 +603,8 @@ body{
     padding: 1.5rem;
     height: 250px;
     font-size: 1.4rem;
+    
 }
-
 
 .container10_box-red{
     border-color: #f53838;
@@ -655,15 +652,20 @@ body{
 /* khu vực điều hướng */
 .container10_controllers{
     margin-top: 60px;
+    padding: 0 40px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
-.container10_controllers-left{
-    margin-left: 20px;
+.container10_controllers-left{   
     display: flex;
     align-items: center;
 }
+
+/* .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
+.swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+    transform: none;
+} */
 
 .swiper-pagination-bullet{
     width: 15px;
@@ -688,9 +690,12 @@ body{
 }
 
 .container10_controllers-right{
-    margin-right: 20px;
     display: flex;
     justify-content: center;
+}
+
+.swiper-button-lock {
+    display: block;
 }
 
 .container10_controller-arrow-img{

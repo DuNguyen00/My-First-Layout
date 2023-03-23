@@ -249,32 +249,55 @@
 /*  container 10=========================================== 
 *   Review
 */
-@media screen and (min-width: 992px){
-    .container10_boxes{
-        /* display: flex;
-        flex-direction: row;
-        justify-content: space-between; */
-    }
-}
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px){    
     .container10_box{
         min-width: 400px;
         padding: 3rem;
     }
-}
 
-@media screen and (min-width: 992px){
+    .swiper-slide {
+        max-width: 30%;
+      }
+    
+      .swiper-slide:nth-child(2n) {
+        max-width: 30%;
+      }
+
     .container10_box .container10_box-upper .info h4{
         font-size: 1.8rem;
     }
+
+    .container10_controllers{ 
+        padding: 0 40px;       
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .swiper-button-lock {
+        display: block;
+    }
 }
 
-@media screen and (min-width: 992px){
-    .container10_controllers{        
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
+@media screen and (min-width: 700px) and (max-width: 991px){
+    .swiper-slide {
+        max-width: 44%;
+      }
+}
+
+@media screen and (min-width: 300px) and (max-width: 699px){
+    .swiper-slide {
+        max-width: 94%;
+      }
+
+      .container10_controllers{ 
+        padding: 0 10px;  
+    }
+
+    .container10_controller-arrow-img {
+        height: 45px;
+        width: 45px;
     }
 }
 
@@ -282,42 +305,30 @@
 *   Subscribe Now for Get Special Features!
 */
 @media screen and (min-width: 992px){
-    .container11_{
-        
+    .container11_{        
         
     }
-}
 
-@media screen and (min-width: 992px){
     .container11_subscribe{
         flex-direction: unset;
         padding: 0 6rem 7rem;
         top: 170px;
         position: relative;
     }
-}
 
-@media screen and (min-width: 992px){
     .container11_subscribe-left{
-       text-align: left;
-    }
-}
+        text-align: left;
+     }
 
-@media screen and (min-width: 992px){
-    .container11_subscribe-heading{
-       font-size: 3.5rem;
-    }
-}
+     .container11_subscribe-heading{
+        font-size: 3.5rem;
+     }
 
-@media screen and (min-width: 992px){
-    .container11_subscribe-button{
+     .container11_subscribe-button{
         width: unset;
         margin-top: unset;
     }
-}
 
-
-@media screen and (min-width: 992px){
     .container11_subscribe-btn{
         padding: 2.1rem 7.75rem;
         width: unset;
@@ -330,18 +341,15 @@
         flex-direction: unset;
         align-items: unset;
     }
-}
 
-@media screen and (min-width: 992px){
     .footer_leftside{
         max-width: 340px;
         margin-right: 220px;
     }
-}
 
-@media screen and (min-width: 992px){
     .footer_rightside{
         display: flex;
         flex-direction: row;
     }
 }
+

@@ -44,35 +44,30 @@
 
 
 var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 3,
   loop: true,
-  centeredSlides: true,  
-  spaceBetween: 20,
   grabCursor: true,
   pagination: {
-    el: ".swiper-pagination",
+    el: ".dots",
     clickable: true,
   },
   breakpoints: {    
-    400: {
-      slidesPerView: 1,
-      spaceBetween: 40
+    300: {
+      slidesPerView: 1
     },
     
     700: {
-      slidesPerView: 2,
-      spaceBetween: 20
+      slidesPerView: "auto",
+      spaceBetween: 40
     },
     
-    1000: {
-      slidesPerView: 3,
-      spaceBetween: 20
-    }
+      992: {
+        slidesPerView: "auto",
+        spaceBetween: 40
+      }
   },
   navigation: {
     nextEl: ".container10_controllers-right-arrow",
     prevEl: ".container10_controllers-left-arrow",
   },
-
 });
 
