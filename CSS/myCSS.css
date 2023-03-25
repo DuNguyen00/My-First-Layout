@@ -25,11 +25,6 @@ body{
     overflow: hidden;
 }
 /* small nav responsive============================ */
-.small_nav-active{
-    right:0;
-    display: block;
-}
-
 .small_nav{
     padding: 100px 20px 20px;
     display: none;
@@ -40,8 +35,14 @@ body{
     height: 100vh;
     background-color: #0b132a;
     transition: right 400ms ease;
-    /* position: fixed; */
+    position: fixed;
+    z-index: 1000;
 }
+
+.small_nav-active{
+    display: block;
+}
+
 .small_nav-list{    
     list-style: none;
     padding-left: 0;   

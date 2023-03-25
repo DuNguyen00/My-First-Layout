@@ -1,48 +1,4 @@
-// var owl = $(".owl-carousel");
-
-// owl.owlCarousel(
-//   $(document).ready(function(){
-//     $('.loop').owlCarousel({
-//         center: false,
-//         items:3,
-//         loop:true,
-//         margin: 50,
-//         // navContainer: ".arrows",
-//         dotsContainer: ".dots",
-//         dotsEach: true,
-//         responsive:{
-//             0: {
-//               items: 1,
-//             },
-//             700: {             
-//               items: 2,
-//             },
-//             1000: {
-//               margin: 300,
-//               items: 3,
-//             },
-//           },
-//     });
-//   })
-// );
-
-// // Go to the next item
-// $('.container10_controllers-right-arrow').click(function() {
-//   owl.trigger('next.owl.carousel');
-// })
-
-// // Go to the previous item
-// $(".container10_controller-left-arrow").click(function() {
-//     owl.trigger('prev.owl.carousel', [300]);
-// })
-
-
-// $(".dot").click(function() {
-//   owl.trigger('to.owl.carousel', [$(this).index(), 300]);
-// })
-
-
-
+// JS for slider
 var swiper = new Swiper(".mySwiper", {
   loop: true,
   grabCursor: true,
@@ -71,3 +27,21 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
+
+// JS for toggle responsive nav
+const smallNavMenu = document.querySelector(".header_nav-menu");
+const smallNav = document.querySelector(".small_nav");
+const smallNavItems = document.querySelectorAll(".small_nav ul li a");
+const lasLes = document.querySelector(".lasles");
+
+smallNavMenu.addEventListener("click", function () {
+  smallNav.classList.toggle("small_nav-active");
+  document.getElementById("small_nav-active").style.right = 0;
+});
+
+smallNavItems.forEach((item) => {
+  item.addEventListener("click", () => {
+    smallNav.classList.toggle("small_nav-active");
+    document.lasLes.classList.toggle("lasles-overflow");
+  });
+});
