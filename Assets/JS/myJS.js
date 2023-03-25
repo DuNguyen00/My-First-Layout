@@ -18,7 +18,7 @@ var swiper = new Swiper(".mySwiper", {
     
       992: {
         slidesPerView: "auto",
-        spaceBetween: 40
+        spaceBetween: 80
       }
   },
   navigation: {
@@ -32,7 +32,6 @@ var swiper = new Swiper(".mySwiper", {
 const smallNavMenu = document.querySelector(".header_nav-menu");
 const smallNav = document.querySelector(".small_nav");
 const smallNavItems = document.querySelectorAll(".small_nav ul li a");
-const lasLes = document.querySelector(".lasles");
 
 smallNavMenu.addEventListener("click", function () {
   smallNav.classList.toggle("small_nav-active");
@@ -42,6 +41,20 @@ smallNavMenu.addEventListener("click", function () {
 smallNavItems.forEach((item) => {
   item.addEventListener("click", () => {
     smallNav.classList.toggle("small_nav-active");
-    document.lasLes.classList.toggle("lasles-overflow");
+  });
+});
+
+
+// js for scrolling price boxes
+const element = document.querySelector('.container1')
+const topPos = element.getBoundingClientRect().top + window.pageYOffset
+const btn = document.querySelectorAll(".container5 .container5_box-btn"); 
+
+btn.forEach((i) =>{
+  i.addEventListener("click", () =>{
+    window.scrollTo({
+    top: topPos, // scroll so that the element is at the top of the view container5_box-btn
+    behavior: 'smooth' // smooth scroll
+    });
   });
 });

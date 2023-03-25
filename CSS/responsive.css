@@ -252,7 +252,7 @@
 
 @media screen and (min-width: 992px){    
     .container10_box{
-        min-width: 400px;
+        min-width: 330px;
         padding: 3rem;
     }
 
@@ -268,8 +268,11 @@
         font-size: 1.8rem;
     }
 
-    .container10_controllers{ 
-        padding: 0 40px;       
+    .container10_box-bottom p{
+        font-size: 1.6rem;
+    }
+
+    .container10_controllers{                
         display: flex;
         justify-content: space-between;
         align-items: center;
